@@ -30,3 +30,6 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 # puts bitcoin_data
+exchange = bitcoin_data["bpi"]["USD"]["rate_float"]
+exhange =exchange.to_f
+puts "you have #{exhange*bitcoin} worth of bitcoin"

@@ -15,3 +15,8 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["tacos", "pizza", "ice cream"]
+friend_list = ["spicy nachos","sushi"]
+shared_list = my_list + friend_list
+puts shared_list.sort
